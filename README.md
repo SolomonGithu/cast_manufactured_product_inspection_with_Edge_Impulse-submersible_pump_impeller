@@ -18,12 +18,12 @@ pip3 install flask
 
 Clone the repository to your target board
 ```
-git clone https://github.com/SolomonGithu/manufactured_defects_detection_with_Edge_Impulse-submersible_pump_impeller.git
+git clone https://github.com/SolomonGithu/manufacturing_process_monitoring-submersible-pump-impeller-_with_Edge_Impulse.git
 ```
 
 Navigate to the repository
 ```
-cd manufactured_defects_detection_with_Edge_Impulse-submersible_pump_impeller
+cd manufacturing_process_monitoring-submersible-pump-impeller-_with_Edge_Impulse
 ```
 Start the application by running the following command while in the root directory of this repo:
 ```
