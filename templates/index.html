@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>AI In Manufacturing Monitoring</title>
+    <!-- Setting Edge Impulse Icon as favicon :) -->
+    <link rel="icon" href="./static/images/mark.svg" type="image/x-icon">
+    
+    <!-- Link css file in the static folder-->
+    <link rel="stylesheet" href="./static/css/index_style.css">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            alert('Desktop view supported');
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div id="title">
+            <h1 style="font-size: 25px; color: #14151A; text-align: left;">Monitoring Manufacturing Production</h1>
+        </div>
+        <div id="ei_logo">
+            <img src="./static/images/Edge_Impulse_Logo.svg" alt="Edge Impulse Logo" width="200" height="50">
+        </div>
+        <div id="renesas_logo">
+            <img src="./static/images/Renesas_Electronics_logo.svg" alt="Renesas Logo" width="200" height="50">
+        </div>
+    </div>
+    <div class="flex-container">
+        <div style="flex-grow: 6; text-align: left;">
+            <img src="{{ url_for('video_feed') }}" alt="video footage" style="width: 550px; height:550px; padding-left: 50px; padding-top: 10px; object-fit:contain;">
+        </div>  
+        <div style="flex-grow: 1;" class="visualization_container">
+            <div class="circle good" id="good">Good : <span id="good_count"></span></div>
+            <div class="circle defective" id="defective">Defective: <span id="defective_count"></span></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./static/js/processing_and visualization.js"></script>
+</body>

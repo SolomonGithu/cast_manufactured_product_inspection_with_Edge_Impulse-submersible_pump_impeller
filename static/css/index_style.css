@@ -1,0 +1,85 @@
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    padding-top: 0px;
+    display: flex;
+    vertical-align: bottom;
+    padding-bottom: 5px;
+}
+#title {
+    float:left;
+    width:550px;
+    height:50px;
+    background-color:white;
+    padding-right: 350px;
+}
+#ei_logo {
+    float:right;
+    width:200px;
+    height:50px;
+    background-color:white; 
+    margin-left:20px;
+    padding-right: 20px;
+}
+#renesas_logo {
+    float:right;
+    width:200px;
+    height:50px;
+    background-color:white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    /*background-color: #ffffff;*/
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5)
+}
+.flex-container > div {
+    /*color: white;*/
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.visualization_container{
+    /*padding-right: 300px;*/
+    display: grid;
+    padding-top: 25px;
+}
+.circle{
+    border-radius: 50%;
+}
+.good{
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 15px;
+    padding: 15px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    color: #14151A;
+    border: 5px solid;
+}
+.defective{
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 15px;
+    padding: 15px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    color: #14151A;
+    border: 5px solid;
+}
