@@ -36,6 +36,7 @@ cd dist && \
 chmod u+x app && \
 ./app
 ```
+![Application running](media/Renesas%20monitoring%20cast%20production%20gif.gif)
 
 ### Rebuilding the executable :hammer:
 
