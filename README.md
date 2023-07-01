@@ -68,5 +68,5 @@ A great fit for supporting the Renesas RZ/V2L Evaluation Board Kit components! T
 
 The Renesas RZ/V2L board is placed on the base support model. The model, base support raiser, is placed below the base support to increase the height of the Renesas board and camera.
 
-The 3D models are available to be downloaded on [printables.com](https://www.printables.com/model/491830-renesas-rzv2l-and-google-coral-camera-holder)
+The 3D models are available to be downloaded on [printables.com](https://www.printables.com/model/491830-renesas-rzv2l-and-google-coral-camera-holder) or [thingiverse.com](https://www.thingiverse.com/thing:6050953)
 
