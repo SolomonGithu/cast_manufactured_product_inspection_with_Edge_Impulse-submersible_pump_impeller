@@ -6,7 +6,7 @@
 
 You can find the public Edge Impulse project here [Submersible pump impeller defect detection](https://studio.edgeimpulse.com/public/198270/latest)
 
-Please up on the [project's documentation](https://docs.edgeimpulse.com/experts/prototype-and-concept-projects/renesas-rzv2l-product-quality-inspection) on Edge Impulse's page to help you get started on your own creation.
+Please up on the [project's documentation](https://www.edgeimpulse.com/blog/elevating-quality-standards-with-ai) on Edge Impulse's page to help you get started on your own creation.
 
 Ensure you have a recent version of Python then install the Edge-Impulse Linux Python SDK : 
 ```
