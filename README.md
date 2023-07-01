@@ -6,6 +6,8 @@
 
 You can find the public Edge Impulse project here [Submersible pump impeller defect detection](https://studio.edgeimpulse.com/public/198270/latest)
 
+Documentation [link](https://docs.edgeimpulse.com/experts/prototype-and-concept-projects/renesas-rzv2l-product-quality-inspection) for the project.
+
 Ensure you have a recent version of Python then install the Edge-Impulse Linux Python SDK : 
 ```
  pip3 install edge_impulse_linux -i https://pypi.python.org/simple
@@ -37,6 +39,8 @@ chmod u+x app && \
 ./app
 ```
 ![Application running](media/Renesas%20monitoring%20cast%20production%20gif.gif)
+
+![Inference](media/Inference.png)
 
 ### Rebuilding the executable :hammer:
 
